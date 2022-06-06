@@ -3,14 +3,28 @@ body{
 }
 
 
+/* header  */
+div.ms_top-header{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
 
+div.ms_top-header-logo{
+    height: 100%;
+}
+
+div.ms_top-header-logo img{
+    height: 100%;
+    padding: 12px;
+}
 
 
 
 
 
 /*************************************************
-   12 SYSTEM - (SM - > 576px)
+(SM - > 576px)
 *************************************************/
 
 @media screen and (min-width: 576px) {
@@ -20,7 +34,7 @@ body{
   
   
 /*************************************************
-     12 SYSTEM - (MD - > 768px)
+(MD - > 768px)
 *************************************************/
     
 @media screen and (min-width: 768px) {
@@ -30,7 +44,7 @@ body{
   
   
 /*************************************************
-     12 SYSTEM - (LG - > 992px)
+(LG - > 992px)
 *************************************************/
     
 @media all and (min-width: 992px) {
