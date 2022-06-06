@@ -64,6 +64,7 @@ span.ms_txt-none{
 
 
 /* second hero  */
+
 section.ms_hero-sect-2{
     background-image: url('../img/img/it-takes-two-hero-banner-desktop.jpg');
     background-size: cover;
@@ -78,6 +79,19 @@ section.ms_hero-sect-2 .container{
 
 div.ms_hero-logo-img{
     width: 50%;
+}
+
+
+/* ps plus  */
+
+div.ms_hidden-pic{
+    display: none;
+}
+
+div.ms_padd-disap{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 
@@ -121,6 +135,14 @@ div.ms_hero-logo-img{
 
     span.ms_txt-none{
         display: inline-block;
+    }
+
+    div.ms_hidden-pic{
+        display: block;
+    }
+
+    div.ms_padd-disap{
+        padding: 0;
     }
 }
   
