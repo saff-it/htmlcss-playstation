@@ -40,6 +40,14 @@ div.ms_hero-logo-img{
 }
 
 
+/* no limits  */
+
+div.ms_margin-spec{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
 
 
 /*************************************************
@@ -61,6 +69,10 @@ div.ms_hero-logo-img{
 @media screen and (min-width: 768px) {
     div.ms_hero-logo-img{
         width: 50%;
+    }
+
+    span.ms_fnt-w-qry{
+        font-size: 18px;
     }
 }
   
