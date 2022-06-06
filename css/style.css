@@ -4,6 +4,7 @@ body{
 
 
 /* header  */
+
 div.ms_top-header{
     background-color: black;
     width: 100%;
@@ -20,6 +21,31 @@ div.ms_top-header-logo img{
 }
 
 
+/* hero  */
+
+section.ms_hero-sect{
+    background-image: url('../img/img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+section.ms_hero-sect .container{
+    padding-top: 250px;
+    padding-bottom: 50px;
+}
+
+
+div.ms_hero-logo-img{
+    width: 50%;
+}
+
+
+p.ms_p-hero{
+    color: white;
+    
+}
+
+
 
 
 
@@ -28,7 +54,9 @@ div.ms_top-header-logo img{
 *************************************************/
 
 @media screen and (min-width: 576px) {
-
+    div.ms_hero-logo-img{
+        width: 45%;
+    }
     
 }
   
@@ -38,8 +66,9 @@ div.ms_top-header-logo img{
 *************************************************/
     
 @media screen and (min-width: 768px) {
-
-
+    div.ms_hero-logo-img{
+        width: 50%;
+    }
 }
   
   
@@ -48,8 +77,14 @@ div.ms_top-header-logo img{
 *************************************************/
     
 @media all and (min-width: 992px) {
-  
+    p.ms_p-hero{
+        font-size: 16px;
+        width: 35%;
+    }
 
+    div.ms_hero-logo-img{
+        width: 25%;
+    }
 }
   
   
