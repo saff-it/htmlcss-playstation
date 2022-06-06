@@ -48,6 +48,15 @@ div.ms_margin-spec{
 }
 
 
+/* 5 pics calc  */
+div.ms_img-calc{
+    width: calc(100% / 3);
+}
+
+span.ms_txt-none{
+    display: none;
+}
+
 
 
 /*************************************************
@@ -77,6 +86,15 @@ div.ms_margin-spec{
 
     div.ms_sec-align{
         align-items: center;
+    }
+
+    div.ms_img-calc{
+        width: calc(100% / 5);
+        transform: scale(0.5);
+    }
+
+    span.ms_txt-none{
+        display: inline-block;
     }
 }
   
