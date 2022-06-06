@@ -74,6 +74,10 @@ div.ms_margin-spec{
     span.ms_fnt-w-qry{
         font-size: 18px;
     }
+
+    div.ms_sec-align{
+        align-items: center;
+    }
 }
   
   
