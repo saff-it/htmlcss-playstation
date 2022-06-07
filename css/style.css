@@ -10,6 +10,9 @@ h1{
     font-size: 35px;
 }
 
+header{
+    background-color: white;
+}
 
 
 /* header  */
@@ -30,16 +33,25 @@ div.ms_top-header-logo img{
 }
 
 a.ms_dot-bf::before{
-    content: "\00B7";
-    font-size: 50px;
+    content: "\2022";
+    font-size: 20px;
     color: blue;
     vertical-align: middle;
-    border-radius: 20px;
-    list-style-type: circle;
+    margin-right: 5px;
+    
 }
 
+.dropdown-menu{
+    background-color: transparent;
+    width: 100%;
+    
+}
 
-
+div.ms_br-line{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+}
 
 
 
