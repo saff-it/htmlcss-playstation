@@ -100,9 +100,18 @@ div.ms_padd-disap{
 
 }
 
+
 /* ps now  */
+
 .ms_bg-blue{
     background-color: #161C3B;
+}
+
+
+/* social media  */
+
+.ms_mw-576{
+    max-width: 576px;
 }
 
 
