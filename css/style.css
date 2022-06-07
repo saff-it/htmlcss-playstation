@@ -12,8 +12,6 @@ h1{
 
 
 
-
-
 /* header  */
 
 div.ms_top-header{
@@ -60,6 +58,7 @@ div.ms_margin-spec{
 
 
 /* 5 pics calc  */
+
 div.ms_img-calc{
     width: calc(100% / 3);
 }
@@ -113,6 +112,20 @@ div.ms_padd-disap{
 .ms_mw-576{
     max-width: 576px;
 }
+
+
+/* footer  */
+
+.ms_custom-w{
+    width: 20%;
+}
+
+.ms_custom-w-2{
+    width: 30%;
+}
+
+
+
 
 
 /*************************************************
