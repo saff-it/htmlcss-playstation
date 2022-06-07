@@ -1,3 +1,5 @@
+
+
 /* general  */
 
 body{
@@ -7,6 +9,10 @@ body{
 h1{
     font-size: 35px;
 }
+
+
+
+
 
 /* header  */
 
@@ -35,7 +41,7 @@ section.ms_hero-sect{
 }
 
 section.ms_hero-sect .container{
-    padding-top: 250px;
+    padding-top: 290px;
     padding-bottom: 50px;
 }
 
@@ -92,6 +98,11 @@ div.ms_padd-disap{
     padding-top: 50px;
     padding-bottom: 50px;
 
+}
+
+/* ps now  */
+.ms_bg-blue{
+    background-color: #161C3B;
 }
 
 
