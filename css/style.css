@@ -197,6 +197,12 @@ div.ms_padd-disap{
     h1.ms_h1-hero2{
         width: 35%;
     }
+
+    div.ms_re-align{
+        flex-direction: row;
+        justify-content: center;
+
+    }
 }
   
   
