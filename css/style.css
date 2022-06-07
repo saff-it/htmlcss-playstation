@@ -29,6 +29,19 @@ div.ms_top-header-logo img{
     padding: 12px;
 }
 
+a.ms_dot-bf::before{
+    content: "\00B7";
+    font-size: 50px;
+    color: blue;
+    vertical-align: middle;
+    border-radius: 20px;
+    list-style-type: circle;
+}
+
+
+
+
+
 
 /* hero  */
 
@@ -198,11 +211,6 @@ div.ms_padd-disap{
         width: 35%;
     }
 
-    div.ms_re-align{
-        flex-direction: row;
-        justify-content: center;
-
-    }
 }
   
   
