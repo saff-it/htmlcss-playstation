@@ -171,6 +171,18 @@ div.ms_margin-spec{
 
 /* 5 pics calc  */
 
+div.offset-md-1.ms_img-hv{
+    border-bottom: 2px solid #2D64E6;
+}
+
+.ms_img-hv{
+    opacity: 0.7;
+}
+
+.ms_img-hv:hover{
+    opacity: 1;
+}
+
 span.ms_txt-none{
     display: none;
 }
