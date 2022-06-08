@@ -140,6 +140,27 @@ div.ms_hero-logo-img{
 }
 
 
+
+/* 6 cards  */
+.ms_frst-img{
+    outline: 2px solid #2D64E6;
+}
+
+div.ms_hov img{
+    border: 2px solid white;
+    
+    transition: all 0.5s;
+}
+
+div.ms_hov:hover img{
+    transform: translate(0, -10px);
+    
+}
+
+
+
+
+
 /* no limits  */
 
 div.ms_margin-spec{
