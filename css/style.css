@@ -14,17 +14,61 @@ header{
     background-color: white;
 }
 
-button{
-    border: 2px solid white;
+button.ms_btn-blk{
+    border: 2px solid black;
+    outline: 2px solid black;
     background-color: black;
     color: white;
     
 }
 
-button:hover{
-    outline: 2px solid black;
+button.ms_btn-blk:hover{
+    border: 2px solid white;
+    transition: 0.5s;
+    
 }
 
+button.ms_btn-red{
+    border: 2px solid #CD3D0F;
+    outline: 2px solid #CD3D0F;
+    background-color: #CD3D0F;
+    color: white;
+    
+}
+
+button.ms_btn-red:hover{
+    border: 2px solid black;
+    transition: 0.5s;
+    
+}
+
+button.ms_btn-blu{
+    border: 2px solid #2D64E6;
+    outline: 2px solid #2D64E6;
+    background-color: #2D64E6;
+    color: white;
+    
+}
+
+button.ms_btn-blu:hover{
+    border: 2px solid white;
+    transition: 0.5s;
+    
+}
+
+button.ms_btn-wht{
+    border: 2px solid #D9DADC;
+    outline: 2px solid #D9DADC;
+    background-color: #D9DADC;
+    color: #2D64E6;
+    font-weight: 600;
+}
+
+button.ms_btn-wht:hover{
+    border: 2px solid #2D64E6;
+    transition: 0.5s;
+    
+}
 
 
 
@@ -105,10 +149,6 @@ div.ms_margin-spec{
 
 
 /* 5 pics calc  */
-
-div.ms_img-calc{
-    width: calc(100% / 3);
-}
 
 span.ms_txt-none{
     display: none;
@@ -208,9 +248,8 @@ div.ms_padd-disap{
         align-items: center;
     }
 
-    div.ms_img-calc{
-        width: calc(100% / 5);
-        transform: scale(0.5);
+    .ms_img-scale{
+        transform: scale(0.7);
     }
 
     span.ms_txt-none{
